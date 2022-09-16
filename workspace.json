@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "puma": "apps/puma",
+    "puma-e2e": "apps/puma-e2e"
+  }
+}
