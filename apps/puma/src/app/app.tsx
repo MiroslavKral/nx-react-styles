@@ -1,13 +1,12 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+import Pokus from './components/pokus/pokus';
+import Test from './test/test';
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="puma" />
-      <div />
-    </>
+    <div>
+      <Test />
+      <Pokus />
+    </div>
   );
 }
 
